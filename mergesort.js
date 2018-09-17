@@ -11,9 +11,9 @@ const split = (array)=>{
   const rightSide = array.slice(0,array.length/2);
   const leftSide = array.slice(array.length/2);
   if (array.length<=2){
-    return [rightSide,leftSide];
 
   }
+  return [rightSide,leftSide];
 }
 // // MERGE SORT
 
